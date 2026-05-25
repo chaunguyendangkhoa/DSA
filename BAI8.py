@@ -1,0 +1,10 @@
+def dem_xuat_hien(a, x):
+    dem = 0
+    for i in range(len(a)):
+        if a[i] == x:
+
+            dem = dem + 1
+    return dem
+a = [2, 5, 2, 7, 2]
+x = int(input("Nhập x: "))
+print("Số lần xuất hiện:", dem_xuat_hien(a, x))
